@@ -44,3 +44,44 @@
   height: 55px;
   object-fit: contain;
 }
+
+@media (max-width: 768px) {
+
+  .navbar {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    direction: rtl;
+  }
+
+  .navbar h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .navbar-links {
+    order: 4;
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+  }
+
+  .navbar a {
+    font-size: 13px;
+  }
+
+  .search-link {
+    padding: 10px 20px;
+  }
+
+  .navbar img {
+    width: 35px;
+    height: 35px;
+  }
+}

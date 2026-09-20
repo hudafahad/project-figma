@@ -62,3 +62,22 @@
   font-size: 16px;
   color: #311f05;
 }
+@media (max-width: 768px) {
+  .products-page {
+    padding: 30px 20px;
+  }
+
+  .products-list {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 25px 15px;
+  }
+
+  .product-card {
+    width: 100% !important;
+    max-width: none;
+  }
+
+  .product-image {
+    height: 180px;
+  }
+}
