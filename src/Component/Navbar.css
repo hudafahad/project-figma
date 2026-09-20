@@ -1,0 +1,46 @@
+.navbar {
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  padding: 25px 60px;
+  background-color: white;
+  justify-content: flex-end;
+}
+
+.navbar h2 {
+  margin: 0;
+  margin-left: auto;
+  line-height: 1.5;
+  color: #311F05;
+  font-size: 40px;
+  text-align: center;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  background-color: #eeeeee;
+  border-radius: 35px;
+  padding: 14px 28px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #311F05;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.search-link {
+  background-color: #eeeeee;
+  border-radius: 35px;
+  padding: 14px 35px;
+}
+
+.navbar img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
